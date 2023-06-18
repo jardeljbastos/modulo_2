@@ -25,5 +25,5 @@ console.log(`Aqui operação OR com resultado ${boole1 || boole2}`);
 
 let boole3 = true;
 
-console.log(`Aqui operação AND três booleanos com resultado ${boole1 && boole2 && boole3}`);
-console.log(`Aqui operação OR três booleanos com resultado ${boole1 || boole2 || boole3}`);
+console.log(`Aqui operação AND três booleanos com resultado ${(boole1 && boole2) && boole3}`);
+console.log(`Aqui operação OR três booleanos com resultado ${(boole1 || boole2) || boole3}`);
