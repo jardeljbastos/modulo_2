@@ -20,10 +20,10 @@ console.log("Resultado do exercicio 2");
 let boole1 = false;
 let boole2 = true;
 
-console.log(boole1 && boole2);
-console.log(boole1 || boole2);
+console.log(`Aqui operação AND com resultado ${boole1 && boole2}`);
+console.log(`Aqui operação OR com resultado ${boole1 || boole2}`);
 
 let boole3 = true;
 
-console.log(boole1 && boole2 && boole3);
-console.log(boole1 || boole2 || boole3);
+console.log(`Aqui operação AND três booleanos com resultado ${boole1 && boole2 && boole3}`);
+console.log(`Aqui operação OR três booleanos com resultado ${boole1 || boole2 || boole3}`);
